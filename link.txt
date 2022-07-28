@@ -1,0 +1,42 @@
+About Icon <a href="https://www.flaticon.com/free-icons/about-person" title="about person icons">About person icons created by Bima Pamungkas - Flaticon</a>  
+
+Hobby Icon <a href="https://www.flaticon.com/free-icons/hobby" title="hobby icons">Hobby icons created by GOWI - Flaticon</a>
+
+Skill Icon <a href="https://www.flaticon.com/free-icons/skill" title="skill icons">Skill icons created by Eucalyp - Flaticon</a>
+
+Contact Icon <a href="https://www.flaticon.com/free-icons/contact" title="contact icons">Contact icons created by Freepik - Flaticon</a>
+
+font-family: 'Comfortaa', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Rubik', sans-serif;
+
+
+/* .box1{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(221, 221, 255);
+}
+
+.box2{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 221, 240);
+}
+
+.box3{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(221, 247, 255);
+}
+
+.box4{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(221, 255, 221);
+}
+
+.box5{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 253, 221);
+} */

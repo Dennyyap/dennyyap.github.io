@@ -1,0 +1,155 @@
+body{
+  margin: 0 auto; 
+  width: 70%;
+  font-family: 'Rubik', sans-serif;
+  line-height: 35px;
+}
+
+.navbar-brand{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-right: 10%;
+}
+
+.navbar{
+  position: relative;
+  top: 0;
+  
+}
+
+.nav-icon{
+  font-size: 2.5rem;
+}
+
+.navbar-nav{
+  display: flex;
+  align-items: center;
+  font-family: 'Cormorant SC', serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.nav-link:hover{
+  text-shadow: 0px 0px 13px rgba(83,83,83,0.51);
+}
+
+.active{
+  background-color: rgb(224, 224, 224);
+  border-radius: 5%;
+}
+
+h1{
+  font-family: 'Comfortaa', cursive;
+  font-size: 5em;
+  font-weight: 100;
+  color: rgb(3, 3, 7);
+  padding-top: 150px;
+  line-height: 1.2em;
+}
+
+h1, h2, p{
+  text-align: center;
+}
+
+.progress{
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+
+#quote-box{
+  margin-top: 40px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+/* #carouselExampleIndicators{
+  -webkit-box-shadow: 3px 2px 19px 5px rgba(99,99,99,0.81); 
+  box-shadow: 3px 2px 19px 5px rgba(99,99,99,0.81);
+  width: 70%;
+  margin: auto;
+  margin-top: 10%;
+} */
+
+footer p{
+  margin-top: 150px;
+}
+
+.box{
+  margin-bottom: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box1{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(205, 205, 209);
+}
+
+.box2{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(60, 119, 247);
+  border-radius: 30%;
+}
+
+.box3{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(63, 194, 218);
+  border-radius: 50%;
+}
+
+.box4{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(91, 204, 91);
+  border-radius: 10%;
+}
+
+.box5{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 148, 26);
+  border-radius: 50%;
+}
+
+.tech-icon{
+  margin-top: 8rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 70px;
+}
+
+.fa-file-video {
+  margin-left: 20px;
+  color: blanchedalmond;
+}
+.fa-git-alt {
+  margin-left: 20px;
+  color: blanchedalmond;
+}
+.fa-github {
+  margin-left: 20px;
+  color: blanchedalmond;
+}
+.fa-html5 {
+  margin-left: 20px;
+  color: blanchedalmond;
+}
+.fa-css3 {
+  margin-left: 20px;
+  color: blanchedalmond;
+}
+.fa-js {
+  margin-left: 20px;
+  color: blanchedalmond;
+}
+.fa-react {
+  margin-left: 20px;
+  color: blanchedalmond;
+}
