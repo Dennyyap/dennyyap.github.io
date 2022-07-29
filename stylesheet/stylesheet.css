@@ -1,6 +1,6 @@
 body{
   margin: 0 auto; 
-  width: 70%;
+  width: 60%;
   font-family: 'Rubik', sans-serif;
   line-height: 35px;
 }
@@ -8,14 +8,13 @@ body{
 .navbar-brand{
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-right: 10%;
 }
 
 .navbar{
   position: relative;
   top: 0;
-  
 }
 
 .nav-icon{
@@ -32,6 +31,7 @@ body{
 
 .nav-link:hover{
   text-shadow: 0px 0px 13px rgba(83,83,83,0.51);
+  font-size: larger;
 }
 
 .active{
@@ -39,12 +39,13 @@ body{
   border-radius: 5%;
 }
 
+
 h1{
   font-family: 'Comfortaa', cursive;
   font-size: 5em;
   font-weight: 100;
   color: rgb(3, 3, 7);
-  padding-top: 150px;
+  padding-top: 120px;
   line-height: 1.2em;
 }
 
@@ -76,6 +77,9 @@ h1, h2, p{
 footer p{
   margin-top: 150px;
 }
+
+
+/* ============================ SKILLS ================================================= */
 
 .box{
   margin-bottom: 15%;
@@ -121,35 +125,153 @@ footer p{
 .tech-icon{
   margin-top: 8rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   font-size: 70px;
 }
 
 .fa-file-video {
   margin-left: 20px;
-  color: blanchedalmond;
+  color: rgb(101, 127, 243);
 }
 .fa-git-alt {
   margin-left: 20px;
-  color: blanchedalmond;
+  color: rgb(253, 123, 16);
 }
-.fa-github {
+.github1 {
   margin-left: 20px;
-  color: blanchedalmond;
+  color: rgb(37, 37, 83);
 }
 .fa-html5 {
   margin-left: 20px;
-  color: blanchedalmond;
+  color: rgb(255, 109, 25);
 }
 .fa-css3 {
   margin-left: 20px;
-  color: blanchedalmond;
+  color: rgb(3, 130, 204);
 }
 .fa-js {
   margin-left: 20px;
-  color: blanchedalmond;
+  color: rgb(36, 153, 0);
 }
 .fa-react {
-  margin-left: 20px;
-  color: blanchedalmond;
+  margin-left: 18px;
+  color: rgb(13, 236, 252);
+}
+
+
+/* ================================== HOBBIES ============================== */
+
+.fa-thumbs-up, .fa-share, .fa-bullhorn{
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+.fa-thumbs-up:hover{
+  font-size: x-large;
+  color: rgb(15, 99, 196);
+}
+
+.fa-share:hover{
+  font-size: x-large;
+  color: rgb(15, 99, 196);
+}
+
+.fa-bullhorn:hover{
+  font-size: x-large;
+  color: rgb(15, 99, 196);
+}
+
+.fa-thumbs-up:active{
+  color: rgb(253, 60, 60);
+}
+
+.fa-share:active{
+  color: rgb(253, 60, 60);
+}
+
+.fa-bullhorn:active{
+  color: rgb(253, 60, 60);
+}
+
+.experience-icon{
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+}
+
+/* ==================================== Contact ======================================= */
+.connect{
+  display: grid;
+  justify-content: center;
+  padding: 3em;
+  -webkit-box-shadow: 2px -1px 11px 5px rgba(181,188,185,0.66); 
+  box-shadow: 2px -1px 11px 5px rgba(181,188,185,0.66);
+  border-radius: 3%;
+  margin-top: 5em;
+}
+
+.connect-btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.fa-at {
+  color: rgb(236, 196, 16);
+  font-size: 2em;
+  margin-right: 6px;
+}
+.github2 {
+  color: rgb(26, 92, 136);
+  font-size: 2em;
+  margin-right: 6px;
+}
+.fa-facebook {
+  color: rgb(80, 113, 202);
+  font-size: 2em;
+  margin-right: 6px;
+}
+.fa-instagram {
+  color: rgb(191, 67, 240);
+  font-size: 2em;
+  margin-right: 6px;
+}
+.fa-twitter {
+  color: rgb(75, 177, 245);
+  font-size: 2em;
+  margin-right: 6px;
+}
+.fa-linkedin {
+  color: rgb(27, 126, 192);
+  font-size: 2em;
+  margin-right: 6px;
+}
+
+.fa-face-sad-cry{
+  color: rgb(151, 6, 6);
+}
+.fa-face-frown{
+  color: rgb(216, 129, 16);
+}
+.fa-face-meh-blank{
+  color: rgb(216, 186, 16);
+}
+.fa-face-smile{
+  color: rgb(158, 177, 51);
+}
+.fa-face-grin-beam{
+  color: rgb(128, 189, 15);
+}
+.fa-face-laugh-beam{
+  color: rgb(85, 204, 5);
+}
+
+.survey{
+  -webkit-box-shadow: 2px -1px 11px 5px rgba(181,188,185,0.66); 
+  box-shadow: 2px -1px 11px 5px rgba(181,188,185,0.66);
+  border-radius: 3%;
+  margin-top: 5em;
+  padding: 5rem;
+}
+
+.mb-3{
+  margin: 4rem 0;
 }

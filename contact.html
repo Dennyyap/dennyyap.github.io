@@ -20,6 +20,10 @@
   <link rel="stylesheet" href="stylesheet/stylesheet.css">
   <link rel="stylesheet" href="stylesheet/all.min.css" />
   <script src="stylesheet/all.min.js"></script>
+
+  <style>
+
+  </style>
 </head>
 
 <body>
@@ -49,6 +53,105 @@
   </header>
 
   <h1>Contact</h1>
+
+  <div class="connect">
+    <h3>Connect with me</h3>
+    <button type="button" class="btn btn-primary connect-btn" data-toggle="modal" data-target="#exampleModal" data-whatever=""><i class="fa-solid fa-arrow-right-from-bracket"></i> Connect</button>
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button> -->
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button> -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Connect Now</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name" class="col-form-label">Your name:</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="sender" class="col-form-label">Your email address:</label>
+                <input type="email" class="form-control" id="sender" placeholder=" @email.com">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Message:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="media-icon">
+      <i class="fa-solid fa-at"></i>
+      <i class="fa-brands fa-github github2"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+  </div>
+
+    
+  <form class="survey">
+    <div class="form-group">
+      <h3>Survey Form</h3>
+      <label for="formControlRange">Please rate your experience:</label>
+      <input type="range" class="form-control-range" id="formControlRange">
+      <div class="experience-icon">
+        <i class="fa-solid fa-face-sad-cry"></i>
+        <i class="fa-solid fa-face-frown"></i>
+        <i class="fa-solid fa-face-meh-blank"></i>
+        <i class="fa-solid fa-face-smile"></i>
+        <i class="fa-solid fa-face-grin-beam"></i>
+        <i class="fa-solid fa-face-laugh-beam"></i>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="validationTextarea">Comment:</label>
+      <textarea class="form-control" id="validationTextarea" placeholder="textarea..."></textarea>
+      <div class="feedback">
+        Please enter a comment in the textarea.
+      </div>
+    </div>
+    
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+      <i class="fa-solid fa-paper-plane"></i> Submit
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Awesome!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Appreciate your feedback. I will review your survey.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </form>
+
 
   <footer>
     <p>Copyright&#169; 2022, Denny Kuswanto</p>
